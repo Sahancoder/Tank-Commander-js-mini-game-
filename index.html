@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tank Commander - 10 Levels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+  <div id="ui-layer">
+    <div id="level-info">Level: <span id="level-display">1</span></div>
+    <div id="status-info">Enemies: <span id="enemy-display">0</span></div>
+  </div>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <div id="message-overlay" class="hidden">
+    <h1 id="msg-title">GAME OVER</h1>
+    <p>Press SPACE to Restart</p>
+  </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
